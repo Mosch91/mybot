@@ -29,6 +29,9 @@ roslaunch mybot_gazebo mybot_world.launch
 
 In Terminal 2, start map building
 
+First install gmapping
+sudo apt-get install ros-indigo-slam-gmapping
+
 roslaunch mybot_navigation gmapping_demo.launch
 
 
